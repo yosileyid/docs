@@ -7,10 +7,10 @@
     <div class="collapse navbar-collapse" id="navbarSupportedContent">
       <ul class="navbar-nav me-auto mb-2 mb-lg-0">
         <li class="nav-item">
-          <a class="nav-link active" aria-current="page" href="/"><i class="fa fa-home"></i></a>
+          <a class="nav-link active" aria-current="page" href="{{ '/' | absolute_url }}"><i class="fa fa-home"></i></a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="/vscode"><i class="fa-solid fa-laptop-code"></i> Extensions</a>
+          <a class="nav-link" href="{{ '/vscode' | absolute_url }}"><i class="fa-solid fa-laptop-code"></i> Extensions</a>
         </li>
         <li class="nav-item dropdown">
           <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
@@ -18,23 +18,23 @@
           </a>
           <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
             <li>
-              <a class="dropdown-item" href="/themes">
+              <a class="dropdown-item" href="{{ '/themes' | absolute_url }}">
                 <i class="fa fa-home"></i><strong> Themes Home</strong>
               </a>
             </li>
             <li><hr class="dropdown-divider"></li>
             <li>
-              <a class="dropdown-item" href="/newspaper">
+              <a class="dropdown-item" href="{{ '/newspaper' | absolute_url }}">
                 <i class="fa-regular fa-newspaper"></i> jekyll-newspaper
               </a>
             </li>
             <li>
-              <a class="dropdown-item" href="/resume">
+              <a class="dropdown-item" href="{{ '/resume' | absolute_url }}>
                 <i class="fa-solid fa-rectangle-ad"></i>  jekyll-resume
               </a>
             </li>
             <li>
-              <a class="dropdown-item" href="/starter">
+              <a class="dropdown-item" href="{{ '/starter' | absolute_url }}">
                 <i class="fa-brands fa-bootstrap"></i> jekyll-bs5
               </a>
             </li>
@@ -48,18 +48,18 @@
           </a>
           <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
             <li>
-              <a class="dropdown-item" href="/npm">
+              <a class="dropdown-item" href="{{ '/npm' | absolute_url }}">
                 <i class="fa fa-home"></i> <strong>NPM Main</strong>
               </a>
             </li>
             <li><hr class="dropdown-divider"></li>
             <li>
-              <a class="dropdown-item" href="/hdg-bot">
+              <a class="dropdown-item" href="{{ '/hdg-bot' | absolute_url }}">
                 <i class="fa-solid fa-robot"></i> hdg-bot
               </a>
             </li>
             <li>
-              <a class="dropdown-item" href="/hdg-md">
+              <a class="dropdown-item" href="{{ '/hdg-md' | absolute_url }}">
                 <i class="fa-brands fa-markdown"></i> hdg-md
               </a>
             </li>
