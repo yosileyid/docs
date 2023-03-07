@@ -41,7 +41,7 @@ description: >- # this means to ignore newlines until "baseurl:"
 # processes in more detail to help you. If you
 # get stuck feel free to reach out.
 
-baseurl       : "docs"
+baseurl       : "/docs"
 
 # URL
 #
@@ -56,7 +56,7 @@ baseurl       : "docs"
 # http://localhost:4000
 
 
-url            : "http://yosileyid.github.io"
+url            : "https://yosileyid.github.io"
 
 # SOCIAL 
 #
