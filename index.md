@@ -1,57 +1,77 @@
 ---
 layout: default
-title: Home
-nav_order: 1
-description: "Just the Docs is a responsive Jekyll theme with built-in search that is easily customizable and hosted on GitHub Pages."
-permalink: /
+title: Main Page
 ---
 
-# Theme documentation for @yosileyid's Jekyll themes and plugins
-{: .fs-9 }
+* * *
 
-[Jekyll][Jekyll] is a framework built on Ruby that makes creating static blogging sites really easy. I enjoy creating themes and plugins to make it easier for everyone to get online and have their own site. These docs will hopefully help you to get up and running using Jekyll and possibly even with one of my themes. 
-{: .fs-6 .fw-300 }
+This is the main documentation site for @yosileyid's various open source projects. Navigate to the various projects documentation by the navbar. The information on the right is just for letting you know issues I am aware of and working on for this site. I mainly make jekyll themes but I also branch out at times and make projects that will help me in some way to speed up production, to keep track of tasks, whatever it is. So I make them open source so others can use them. Below you will find some of my themes, apps, scripts, and more that I use to help me.
 
-[Jekyll Newspaper Theme][Jekyll Newspaper Theme]{: .btn .btn-primary .fs-5 .mb-4 .mb-md-0 .mr-2 }
-[View GitHub Repo][Jekyll Newspaper repo]{: .btn .fs-5 .mb-4 .mb-md-0 }
+## <i class="fa-solid fa-laptop-code"></i> VS Code Extension
 
----
+This is a simple extension for VS Code that adds some example snippets from https://getbootstrap.com/docs/5.3/examples to help you create sites faster using bootstrap. I have plans to add more but for now it has a bootstrap v5.3 starter template `jekyll-bs5` will show you an example of what the starter template looks like (*don't worry, it is a simple HTML file, not jekyll related at all*). It also includes "Heros", "Headers", "Features", "Dropdowns", "List Groups", "Footers", and more. You can view more info in the link "VS Code Extension" in the menu.
 
-{: .warning }
-> This website documents the features of the current `main` branch of the themes for Jekyll created by @yosileyid See [the CHANGELOG]({% link CHANGELOG.md %}) for a list of releases, new features, and bug fixes.
+## <i class="fa-regular fa-gem"></i> Jekyll Themes
 
-## About the project
+<p></p>
 
-This Documentation is &copy; 2023 by [Yosi Leyid](http://yosileyid.github.io). Links will walk you through setting up jekyll blogs on your local computer, you will need to have `Ruby`, `rvm`, `bundler`, and `jekyll` all installed before you can use these themes. Please visit the [Jekyll][Jekyll] site and make sure to install everything you need before using these docs. You may run into issues otherwise.
+<div class="row bg-custom text-info">
 
-### License
+  <div class="col-lg-4">
+    <p></p>
+    <img 
+      class="img-fluid" 
+      src="https://user-images.githubusercontent.com/14003326/222299618-1d185aa9-a4cd-49e5-aa18-355d2f744f24.png"
+      >
+  </div>
+  <div class="col-lg-8">
+    <h4>jekyll-newspaper-0.1.0</h4>
+    <p>This is a newspaper style blog theme I created. I have more features in mind but it takes some time. Have patience plz</p>
+    <p>
+      <a class="btn btn-sm btn-info" target="_blank" href="https://github.com/jekyll-bootstrap/jekyll-newspaper">Use Template</a>  
+      <a class="btn btn-sm btn-info" target="_blank" href="https://jekyll-bootstrap.github.io/jekyll-newspaper">Live Demo</a>  
+      <a class="btn btn-sm btn-info" target="_blank" href="https://github.com/jekyll-bootstrap/jekyll-newspaper">View Repo</a>
+    </p>
+  </div>
+  
+</div>
+<div class="row bg-custom text-info">
 
-Just the Docs is distributed by an [Mozilla Public License v2.0](https://github.com/yosileyid/docs/tree/main/LICENSE).
+  <div class="col-lg-4">
+    <p></p>
+    <img class="img-fluid" src="https://raw.githubusercontent.com/Jekyll-Bootstrap/jekyll-resume/main/jekyll-resume.png">
+  </div>  
+  <div class="col-lg-8">
+    <h4>jekyll-resume-0.0.2</h4>
+    <p>This is a resume theme I made for jekyll blogs. I also use it on my site you can see on the "Live Demo" link</p>
+    <p>
+      <a target="_blank" href="https://github.com/jekyll-bootstrap/jekyll-resume" class="btn btn-sm btn-info">Use Template</a>  
+      <a class="btn btn-sm btn-info" target="_blank" href="https://yosileyid.github.io">Live Demo</a>  
+      <a class="btn btn-sm btn-info" target="_blank" href="https://github.com/jekyll-bootstrap/jekyll-resume">View Repo</a>
+    </p>
+  </div>
 
-### Contributing
+</div>
+<div class="row bg-custom text-info">
+  
+  <div class="col-lg-4">
+    <p></p>
+    <img class="img-fluid" src="https://user-images.githubusercontent.com/14003326/221392294-46bbad96-32d9-4c2b-9950-c1e83eeb956a.png">
+  </div>
+  <div class="col-lg-8">
+    <h4>jekyll-bs5-0.0.2</h4>
+    <p>This is just the starter template from getbootstrap, I used it to make my first theme to learn the process.</p>
+    <p>
+      <a class="btn btn-sm btn-info" target="_blank" href="https://github.com/jekyll-bootstrap/jekyll-bs5">Use Template</a>  
+      <a class="btn btn-sm btn-info" target="_blank" href="https://jekyll-bootstrap.github.io/jekyll-bs5">Live Demo</a>  
+      <a class="btn btn-sm btn-info" target="_blank" href="https://github.com/jekyll-bootstrap/jekyll-bs5">View Repo</a>
+    </p>
 
-When contributing to the documentation repository, please first discuss the change you wish to make via issue,
-email, or any other method with the owners of this repository before making a change. Read more about becoming a contributor in [our GitHub repo](https://github.com/hasidicdevs/hdg-docs#contributing).
+  </div>
 
-#### Thank you to the contributors of these docs!
+</div>
 
-<ul class="list-style-none">
-{% for contributor in site.github.contributors %}
-  <li class="d-inline-block mr-1">
-     <a href="{{ contributor.html_url }}"><img src="{{ contributor.avatar_url }}" width="32" height="32" alt="{{ contributor.login }}"></a>
-  </li>
-{% endfor %}
-</ul>
+## <i class="fab fa-npm"></i> NPM Packages
 
-### Code of Conduct
-
-I am committed to fostering a welcoming community. I use this Code Of Conduct, I believe it includes everyone.
-
-[View Code of Conduct](https://github.com/yosileyid/docs/tree/main/CODE_OF_CONDUCT.md) on our GitHub repository.
-
-----
-
-[Jekyll]: https://jekyllrb.com
-[Jekyll Newspaper Theme]: https://yosileyid.github.io/jekyll-newspaper/
-[Jekyll Newspaper repo]: https://github.com/just-the-docs/just-the-docs
-[customize]: {% link docs/customization.md %}
+* `[hdg-bot]`: Discord Bot Base for building rapid bots
+* `[hdg-md]`: Markdown Viewer

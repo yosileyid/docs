@@ -1,7 +1,34 @@
+---
+layout: default
+title: Jekyll Themes
+---
+
+***
+
+I really enjoy creating jekyll themes. If you have jekyll installed already you can simply install any of my themes as a gem `gem install jekyll-newspaper` for example and use it in your existing site. For now both links in the top nav go to this page, I am splitting it up so the theme docs are more detailed. Each theme has a different type of configuration. You will see what that means eventually as the docs grow. 
+
+{: .list-unstyled}
+* `jekyll-docs-dark:`
+  - This is a documentation theme for jekyll, you are seeing it live right here. 
+* `jekyll-newspaper-0.2.0:` 
+  - This theme resembles a Newspaper type blog.
+* `jekyll-resume-0.0.1:` 
+  - This is a simple bootstrap resume site for developers to use.
+* `jekyll-bs5:` 
+  - This is just the bootsrap v5.3 starter template, my very first theme. 
+
+The main source of info for any jekyll theme is in the configuration file. Below you can see an example that I use as the base config file in all my themes until I decide to change the way the site works.
+
+## Config.yml
+
+The `_config.yml` is the most basic part of any jekyll site. It tells jekyll what information to display along with what plugins you are using and more according to what the designer has included in there.
+
+{: .accent .rounded .text-dark}
+```yaml
 # Needed for gh-pages sites
 #
-repository : yosileyid/docs
-github     : [metadata]
+# repository : username/repo
+# github     : [metadata]
 
 # This is a "Newspaper" blog theme written for Jekyll users in Bootstrap v5.03
 # we create themes and plugins professionally, but we also have free themes we
@@ -41,7 +68,7 @@ description: >- # this means to ignore newlines until "baseurl:"
 # processes in more detail to help you. If you
 # get stuck feel free to reach out.
 
-baseurl       : "docs"
+baseurl       : ""
 
 # URL
 #
@@ -56,7 +83,7 @@ baseurl       : "docs"
 # http://localhost:4000
 
 
-url            : "http://yosileyid.github.io"
+url            : "http://localhost:4000"
 
 # SOCIAL 
 #
@@ -99,3 +126,5 @@ collections:
     permalink: /:categories/:title/
 #  authors:
 #    output: true
+
+```
